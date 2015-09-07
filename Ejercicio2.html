@@ -1,0 +1,37 @@
+<html>
+  <head>
+     Realizar un script que dada una unidad realice la conversion de: Grados centigrados a Grados Fahrenheit, de Grados centigrados a Grados Kelvin y viceversa<br>
+  </head>
+  <body>
+  <script type="text/javascript">
+   
+    var centigrados;
+	  var farenheit;
+	  var kelvin;
+	  centigrados=prompt("Ingrese Grados Centigrados:");
+    farenheit=((centigrados*9/5)+32);
+    </script>
+    <br>
+    <script type="text/javascript">
+    document.write(+centigrados+ " Grados Centigrados equivalen a" +farenheit+ " Grados Fahrenheit");
+    </script>
+    <br>
+    <script type="text/javascript">
+	  kelvin=parseInt(centigrados)+273.15;
+    document.write(+centigrados+ " Grados Centigrados equivalen a:" +kelvin+ " Grados Kelvin");
+
+    farenheit1=prompt("Ingrese Grados Fahrenheit:");
+    centigrados2=(farenheit1-32)/1.8000;
+    </script>
+    <br>
+    <script type="text/javascript">
+    document.write(+farenheit1+ " Grados Fahrenheit equivalen a" +centigrados2+ " Grados Centigrados");
+    </script>
+    <br>
+    <script type="text/javascript">
+    kelvin2=prompt("Ingrese Grados kelvin:");
+    centigrados3=kelvin2-273.15;
+    document.write(+kelvin2+ " Grados kelvin equivalen a:" +centigrados3+ " Grados Centigrados");
+  </script>
+  </body>
+  </html>

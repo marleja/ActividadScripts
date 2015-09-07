@@ -1,0 +1,17 @@
+<html>
+  <head>
+    La gravedad de la Luna es de alrededor del 17% de la Tierra. escribir un script  que calcule su peso efectivo en la Luna.<br>
+  </head>
+  <body>
+  <script type="text/javascript">
+    var peso;
+    var masa;
+    var gravedad=9.8;
+    var gravedadLuna=1.62;
+    peso=prompt('Ingrese su peso:');
+    masa=peso/gravedad;
+    pesoLuna=masa*gravedadLuna;
+    pesoLuna > 0 ? document.write('Su peso en la Luna es de: ' +pesoLuna+ ' Kilogramos'): document.write('Ingreso numero no valido');
+  </script>
+  </body>
+  </html>
